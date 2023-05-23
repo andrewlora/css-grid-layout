@@ -4,7 +4,10 @@
     /* grid-template-columns: 300px 300px 300px; */
     /* grid-template-columns: 25% 25% 25% 25%; */
     /* grid-template-columns: 1fr 1fr; */
-    grid-template-columns: 1fr 1fr 2fr;
+    /* grid-template-columns: 1fr 1fr 2fr; */
+    /* grid-template-columns: repeat(5, 1fr); */
+    grid-template-columns: auto 1fr 2fr;
+    grid-template-rows: 1fr;
 }       
 .zone {
     cursor:pointer;
